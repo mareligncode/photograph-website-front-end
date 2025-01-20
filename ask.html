@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="order.css">
+    <script src="order.js" defer></script>
+</head>
+<body>
+    <header class="head">
+        <div class="logo">wellcome
+            <img src="j3.jfif" height="40" width="40" style="border-radius: 50%;">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallary.html">srvice</a>
+            <a href="about.html">about</a>
+
+
+            <!-- <a href="order.html">Order</a> -->
+        </nav>
+    </header>
+
+    <main>
+        <section class="order-form-section">
+            <h1>Place Your Order</h1>
+            <div class="order-container">
+                <form id="order-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="product">Product</label>
+                    <select id="product" name="product" required>
+                        <option value="">Select a Product</option>
+                        <option value="Photography Package A">Photography Package A</option>
+                        <option value="Photography Package B">Photography Package B</option>
+                        <option value="Photography Package C">Photography Package C</option>
+                    </select>
+
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+
+                    <label for="message">Message (Optional)</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+
+                    <button type="submit" class="submit-btn">Place Order</button>
+                </form>
+                <div id="order-status"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 cs secA group6. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color:darkgrey;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 90%;
+
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #00aaff;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form-section h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.contact-container textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #00aaff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #0088cc;
+}
+
+#message-status {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Google Maps Section */
+.google-maps-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.google-maps-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    opacity: 90%;
+}

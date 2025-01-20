@@ -1,0 +1,245 @@
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header{
+    background-color:darkgrey;
+    opacity: 80%;
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.header a{
+    background-color: darkgray;
+    color: aliceblue;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 20px;
+    
+    
+}
+a:hover{
+    background-color: brown;
+    cursor: pointer;
+    border-bottom: 4px green solid;
+    border-radius: 12px;
+} 
+header.header{
+    justify-content: flex-end;
+    display: flex;
+   
+
+}
+.cermony{
+    background-color:darkslategrey;
+}
+.cermony img{
+    margin-right: 20px;
+}
+h2{
+    background-color:black;
+    color: dimgray;
+}
+.birthday{
+    background-color: darkseagreen;
+}
+.birthday img{
+    margin-right: 20px;
+}
+h3{
+    background-color: cornflowerblue;
+}
+body{
+    background-color:cornsilk
+}
+.happy{
+    background-color: beige;
+}
+h4{padding-top: 10px;
+    background-color: aquamarine;
+}
+.about{
+    background-color: lightblue;
+}
+.about img{
+    margin-right: 23px;
+}
+#j{
+    padding-left: 100px;
+    padding-right: 100;
+}
+/* .foot{
+    margin-top: auto;
+    padding: 280px;
+    padding-right: 10px;
+    height: 50px;
+    position: absolute;
+} */
+.button{
+    background-color: blue;
+    color: white;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-style: oblique;
+}
+.button2{
+    margin-left: 250px;
+    background-color: blue;
+    color: white;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-style: oblique;
+}
+.button3{
+    margin-left: 400px;
+    background-color: blue;
+    color: white;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-style: oblique;
+}
+.button3:hover{
+    cursor: pointer;
+    background-color:red;
+}
+.button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color:yellow;
+    cursor: pointer;
+
+}
+
+.footer {margin-top: auto;
+    /* background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0; /* Ensures no margin at the bottom */
+    background-color:black;
+    width: 100%;
+    height: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    opacity: 80%;
+} 
+
+
+
+.footer a {
+    background-color: black;
+    color: aliceblue;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    background-color: aquamarine;
+    margin-left: auto;
+}
+footer.footer {
+   
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+}
+footer.footer {
+    justify-content: flex-end;
+
+
+}
+.icon{
+    display: none;
+ }
+.header {
+    background-color: darkgrey;
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header a {
+    background-color: darkgray;
+    color: aliceblue;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: brown;
+    cursor: pointer;
+    border-bottom: 4px green solid;
+}
+
+header.header {
+    justify-content: flex-end;
+    display: flex;
+}
+
+/* Hide navbar links on small screens */
+.icon {
+    display: none;
+}
+
+/* Media Query for Mobile Devices (max-width: 750px) */
+@media screen and (max-width: 750px) {
+    .navbar {
+        display: none;
+        width: 100%;
+    }
+
+    /* Show the hamburger icon on small screens */
+    .header a.icon {
+        display: block;
+        font-size: 30px;
+        padding: 10px;
+        float: right;
+    }
+
+    /* When the header is in the responsive state, show the navbar links */
+    .header.responsive .navbar {
+        display: block;
+        position: relative;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+}
+#h1{
+    color: white;
+}
+.srvice{
+    background-color: darkgray;
+    margin-top: 0;
+    height: 60px;
+    
+}
+.srvice a{
+    text-decoration: none;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: auto;
+    color: white;
+    font-size: 22px;
+    float: right;
+
+
+}
+
